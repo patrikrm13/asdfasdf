@@ -256,7 +256,7 @@ function create_config( )
     "google",
     "support",
     },
-    sudo_users = {139534999},--Sudo users
+    sudo_users = {148775575},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
@@ -470,29 +470,10 @@ This command will send text to [group_id]
 
 10-bot number & support ^
 
-!share
-دریافت شماره ربات
-
-!join 103661224
-وصل شدن به ساپورت
 
 you can use both "/" and "!" 
 شما میتوانید از ! و / استفاده کنید
 
-Developer: @RM13790115
-توسعه دهنده
-اگه هم ریپورتی از طریق بات بچت
-@RM13790115bot
-
-channel: @avengersbotgroups
-کانال ما
-
-G00D LUCK ^_^
-برای وارد شدن به ساپورت از کد
-/joinsu
-استفاده کنید
-گیت هاب جهت دزدی :)
-https://github.com/m13790115/eset.git
 ]]
   }
   serialize_to_file(config, './data/config.lua')
